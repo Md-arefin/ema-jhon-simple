@@ -45,4 +45,6 @@
 .btn-cart:hover{
     background-color: orange;
     cursor: pointer;
+    border: 2px solid black;
+    border-radius: 0px 0px 8px 8px;
 }
