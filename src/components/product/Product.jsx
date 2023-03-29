@@ -4,7 +4,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Product.css';
 
 const Product = (props) => {
-    const {img, price, name, quantity, seller, ratings} = props.product;
+    const {img, price, name, seller, ratings} = props.product;
 
    const handleAddToCart =props.handleAddToCart;
 
